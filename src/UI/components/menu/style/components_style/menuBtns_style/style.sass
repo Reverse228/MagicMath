@@ -1,0 +1,50 @@
+@import ../../../../../../sass/MainStyle
+
+#menuBtns-contianer
+    padding: 1.5em 3em 
+    border: 0.5px solid white
+    border-radius: 10px
+    color: white
+    @include flex(space-between, flex-start, column)
+
+    .btns
+        width: 100%
+        @include flex(flex-start, center, none)
+
+
+        .hoverText
+            width: 100%
+            z-index: 2
+            cursor: pointer
+            
+            p
+                font-family: 'Baufra'
+                font-style: normal
+                font-size: 24px
+                position: relative
+                left: 0px
+                transition: 0.5s
+            
+            &:hover > p 
+                left: 15px
+                text-shadow: 0px 0px 10px rgba(255, 255, 255, 1)
+
+            &:hover + .none-particle  
+                background: transparent
+                
+
+        .none-particle
+            width: 250px
+            height: 50px
+            position: absolute
+            z-index: 1
+            transition: 0.5s
+            background: $black
+            transform: translateX(-10%)
+
+        .particalBg
+            transform: translateX(-10%)
+    
+
+
+    

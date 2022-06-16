@@ -1,0 +1,185 @@
+#animation_speed {
+  margin-top: 3em;
+  width: 55%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#animation_speed #text_anim {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+#animation_speed #text_anim p {
+  font-family: 'Baufra';
+  font-style: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+}
+
+#animation_speed #text_anim #text_speed {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+#animation_speed #text_anim #text_speed input {
+  font-family: 'Baufra';
+  font-style: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #FFFFFF;
+  background: none;
+  border: none;
+  width: 25px;
+  outline: none;
+}
+
+#animation_speed #text_anim #text_speed input[type="number"] {
+  -moz-appearance: textfield;
+  -webkit-appearance: textfield;
+  appearance: textfield;
+}
+
+#animation_speed #text_anim #text_speed input[type="number"]::-webkit-outer-spin-button, #animation_speed #text_anim #text_speed input[type="number"]::-webkit-inner-spin-button {
+  display: none;
+}
+
+#animation_speed input {
+  width: 100%;
+}
+
+#animation_speed input[type=range] {
+  -webkit-appearance: none;
+  background: transparent;
+  margin: 10px 0;
+  width: 100%;
+}
+
+#animation_speed input[type=range]:focus {
+  outline: none;
+}
+
+#animation_speed input[type=range]::-webkit-slider-runnable-track {
+  -webkit-box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.5);
+          box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.5);
+  width: 100%;
+  height: 10px;
+  cursor: pointer;
+  background: white;
+  border-radius: 25px;
+  border: 0px solid #000101;
+}
+
+#animation_speed input[type=range]::-webkit-slider-thumb {
+  border: 1px solid #131313;
+  height: 20px;
+  width: 50px;
+  border-radius: 15px;
+  background: white;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -3.6px;
+}
+
+#animation_speed input[type=range]:focus::-webkit-slider-runnable-track {
+  -webkit-box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.5);
+          box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.5);
+  background: white;
+}
+
+#animation_speed input[type=range]::-moz-range-track {
+  box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.5);
+  width: 100%;
+  height: 10px;
+  cursor: pointer;
+  animate: 0.2s;
+  background: white;
+  border-radius: 25px;
+  border: 0px solid #000101;
+}
+
+#animation_speed input[type=range]::-moz-range-thumb {
+  border: 1px solid #131313;
+  height: 20px;
+  width: 50px;
+  border-radius: 15px;
+  background: white;
+  cursor: pointer;
+}
+
+#animation_speed input[type=range]::-ms-track {
+  box-shadow: 0px 0px 15px rgba(255, 255, 255, 0.5);
+  width: 100%;
+  height: 10px;
+  cursor: pointer;
+  animate: 0.2s;
+  background: transparent;
+  border-color: transparent;
+  border-width: 50px 0;
+  color: transparent;
+}
+
+#animation_speed input[type=range]::-ms-fill-lower {
+  background: white;
+  border: 0px solid #000101;
+  border-radius: 50px;
+}
+
+#animation_speed input[type=range]::-ms-fill-upper {
+  background: white;
+  border: 0px solid #000101;
+  border-radius: 50px;
+}
+
+#animation_speed input[type=range]::-ms-thumb {
+  border: 1px solid #131313;
+  height: 20px;
+  width: 50px;
+  border-radius: 15px;
+  background: white;
+  cursor: pointer;
+}
+
+#animation_speed input[type=range]:focus::-ms-fill-lower {
+  background: white;
+}
+
+#animation_speed input[type=range]:focus::-ms-fill-upper {
+  background: white;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,24 @@
+// Colors 
+$black: #131313
+
+// Fonds 
+    @font-face 
+        font-family: 'Baufra'
+        src: 
+            url('../UI/fonts/Baufra.otf') format('otf'), 
+            url('../UI/fonts/BaufraBold.otf') format('otf'), 
+            url('../UI/fonts/BaufraDemiBold.otf') format('otf'), 
+            url('../UI/fonts/BaufraLight.otf') format('otf'),
+            url('../UI/fonts/BaufraMedium.otf') format('otf'),
+            url('../UI/fonts/BaufraSemiBold') format('otf'),
+        
+
+
+
+// Functions 
+
+@mixin flex($jc, $ai, $fd)
+    display: flex
+    justify-content: $jc
+    align-items: $ai
+    flex-direction: $fd
